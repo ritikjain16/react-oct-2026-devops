@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import instance from "./axios";
+import { config } from "./config";
 
 const App = () => {
   const [apiData, setapiData] = useState({});
@@ -15,6 +16,7 @@ const App = () => {
 
   return (
     <div>
+      {config.RITIK_NICKNAME}
       <button onClick={() => fetchData("/api")}>Fetch Api</button>
       <button onClick={() => fetchData("/api/v1")}>Fetch Api V1</button>
       <p>{JSON.stringify(apiData)}</p>

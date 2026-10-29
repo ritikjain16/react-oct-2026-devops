@@ -28,3 +28,8 @@ spec:
                 configMapKeyRef:
                   name: react-frontend-config
                   key: API_URL
+            - name: RITIK_NICKNAME
+              valueFrom:
+                configMapKeyRef:
+                  name: react-frontend-config
+                  key: RITIK_NICKNAME

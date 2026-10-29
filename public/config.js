@@ -1,3 +1,4 @@
 window.APP_CONFIG = {
   API_URL: "${API_URL}",
+  RITIK_NICKNAME: "${RITIK_NICKNAME}",
 };

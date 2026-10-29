@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-envsubst '${API_URL}' \
+envsubst '${API_URL} ${RITIK_NICKNAME}' \
   < /usr/share/nginx/html/config.js \
   > /usr/share/nginx/html/config.js.tmp
 
