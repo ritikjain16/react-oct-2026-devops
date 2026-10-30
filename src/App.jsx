@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div>
-      {config.RITIK_NICKNAME}abcd
+      {config.RITIK_NICKNAME}abcdy
       <button onClick={() => fetchData("/api")}>Fetch Api</button>
       <button onClick={() => fetchData("/api/v1")}>Fetch Api V1</button>
       <p>{JSON.stringify(apiData)}</p>
